@@ -1,0 +1,100 @@
+html, body{
+  background-color: #1A3947;
+  color: white;
+}
+
+body
+{
+  font-family: segoe ui;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  margin: 0;
+}
+
+.logo
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0977ba;
+}
+
+.slogan
+{
+  font-size: 30px;
+  font-weight: lighter;
+  color: #121212;
+  margin-bottom: 10px;
+}
+
+.card
+{
+  border-color: transparent;
+}
+
+.card-body
+{
+  border-radius: 10px;
+  border-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.form-control
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 45px;
+  background: #e2e2e2;
+  color: black;
+}
+
+.form-control:focus
+{
+  background: #e2e2e2;
+  color: black;
+}
+
+.btn-success
+{
+  width: 350px;
+  height: 45px;
+}
+
+.login_error
+{
+  color: red;
+  position: absolute;
+  top: 115px;
+}
+
+.login_error.emptyfields
+{
+  left: 42.3%;
+}
+
+.login_error.wrongpassword
+{
+  left: 43.9%;
+}
+
+.login_error.invalidemail
+{
+  left: 43.4%;
+}
+
+.login_success
+{
+  color: green;
+  position: absolute;
+  top: 115px;
+}
+
+.login_success.passwordupdated
+{
+  left: 40.1%;
+}

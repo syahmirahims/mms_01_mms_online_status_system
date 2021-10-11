@@ -1,0 +1,54 @@
+body
+{
+  font-family: segoe ui;
+  text-align: center;
+}
+
+.logo
+{
+  font-size: 40px;
+  color: #0977ba;
+  font-weight: bold;
+}
+
+.slogan
+{
+  font-size: 30px;
+  color: #121212;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+
+.card
+{
+  border-color: transparent;
+  margin-top: 100px;
+}
+
+.card-body
+{
+  margin-left: auto;
+  margin-right: auto;
+  border-color: transparent;
+  vertical-align: middle;
+}
+
+.form-group
+{
+  margin-top: 10px;
+}
+
+.form-control
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 45px;
+  background: #e2e2e2;
+}
+
+.form-control:focus
+{
+  background: #e2e2e2;
+  color: black;
+}

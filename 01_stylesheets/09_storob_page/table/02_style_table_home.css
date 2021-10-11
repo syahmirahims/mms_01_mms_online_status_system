@@ -1,0 +1,93 @@
+table{
+    border: transparent;
+    /* border: 1px black solid; */
+    width: 100%;
+    text-align: center;
+}
+
+a, a:hover{
+    color: normal;
+    text-decoration: none;
+}
+
+th{
+    background-color: transparent;
+    color: black;
+    font-size: 3vh;
+    border: transparent;
+    /* border: 1px black solid; */
+    border-bottom: 1px black solid;
+}
+
+tr{
+    height: 10vh;
+}
+
+th{
+    width: 10.11vw;
+}
+
+td{
+    border: transparent;
+    /* border: 1px black solid; */
+    font-size: 1.8vh;
+    width: 10.11vw;
+}
+
+.id, .fromShip, .toShip, .storobId, .action{
+    width: 5.055vw;
+}
+
+.componentName{
+    width: 35.395vw;
+}
+
+.btn-link{
+    font-size: 1.8vh;
+}
+
+/* .btn-info{
+    background-color: #1A3947;
+    border: 1px #1A3947 solid;
+    width: 60%;
+    height: 6.5vh;
+    font-size: 1.8vh;
+}
+
+.btn-info:focus, .btn-info:hover, .btn-info:active, .btn-info:visited{
+    background-color: #FCA26E;
+    border: 1px #FCA26E solid;
+    color: black;
+} */
+
+button{
+    background-color: #1A3947;
+    color: white;
+    border: 1px #1A3947 solid;
+    border-radius: 5px;
+    width: 60%;
+    font-size: 1.8vh;
+    height: 6.5vh;
+}
+
+button:focus, button:visited{
+    outline: none;
+    background-color: #FCA26E;
+    color: black;
+    border: 1px #FCA26E solid;
+    box-shadow: 0 0 0 3px #fca26e63 ;
+}
+
+button:hover{
+    background-color: #FCA26E;
+    color: black;
+    border: 1px #FCA26E solid;
+}
+
+#card3 .table_heading a{
+    color: black;
+}
+
+#card3 .table_heading a:hover{
+    color: #FCA26E;
+}

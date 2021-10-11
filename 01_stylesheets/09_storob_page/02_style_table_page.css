@@ -1,0 +1,43 @@
+body{
+    margin-left: 6vw;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+@media screen and (min-width:1601px){}
+
+@media screen and (max-width:1600px){}
+
+#card1{
+    width: 100%;
+    border: transparent;
+    /* border: 1px black solid; */
+    margin-bottom: 2vh;
+}
+
+#card1 .headline{
+    font-weight: bold;
+    text-align: center;
+}
+
+.card2{
+    width: 100%;
+    border: transparent;
+    /* border: 1px black solid; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card3{
+    width: 100%;
+    border: transparent;
+    /* border: 1px black solid; */
+    margin-bottom: 5vh;
+}
+
+.card4, #card5{
+    width: 57.911vw;
+    border: transparent;
+    /* border: 1px black solid; */
+}

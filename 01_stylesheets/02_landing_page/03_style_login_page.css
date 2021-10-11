@@ -1,0 +1,193 @@
+html, body{
+    background-color: #1A3947;
+    color: white;
+    font-family: segoe ui;
+}
+
+@media screen and (min-width:1601px){
+    #card1{
+        color: #FCA26E;
+        text-align: center;
+        background-color: transparent;
+        /* border: 1px white solid; */
+        border: transparent;
+        top: 22vh;
+    }
+
+    #card1 .heading1{
+        font-weight: bold;
+    }
+
+    #card1 .heading2{
+        font-weight: lighter;
+    }
+
+    #card2{
+        background-color: transparent;
+        /* border: 1px white solid; */
+        border: transparent;
+        width: 100%;
+        margin: 0 auto;
+        top: 27vh;
+    }
+
+    #card2 .form-group input{
+        background-color: transparent;
+        border: 1px white solid;
+        color: white;
+        width: 35%;
+        height: 5vh;
+        margin: auto;
+        margin-bottom: 2vh;    
+    }
+
+    #card2 .form-group .form-control::placeholder{
+        color: lightgray;
+    }
+
+    #card2 .form-group .form-control:focus{
+        border: #FCA26E;
+        box-shadow: 1px 1px 1px #FCA26E inset, 1px 1px 1px #FCA26E;
+    }
+
+    #card2 .form-group .btn-success{
+        width: 35%;
+        height: 5vh;
+        display: block;
+        margin: auto;
+    }
+
+    #card3{
+        background-color: transparent;
+        /* border: 1px solid white; */
+        border: transparent;
+        top: 32vh;
+        display: block;
+        margin: auto;
+        width: 150px;
+        text-align: center;
+    }
+
+    #card3 a{
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width:1600px){
+    #card1{
+        color: #FCA26E;
+        text-align: center;
+        background-color: transparent;
+        /* border: 1px white solid; */
+        border: transparent;
+        top: 17vh;
+    }
+
+    #card1 .heading1{
+        font-weight: bold;
+    }
+
+    #card1 .heading2{
+        font-weight: lighter;
+    }
+
+    #card2{
+        background-color: transparent;
+        /* border: 1px white solid; */
+        border: transparent;
+        width: 100%;
+        margin: 0 auto;
+        top: 22vh;
+    }
+
+    #card2 .form-group input{
+        background-color: transparent;
+        border: 1px white solid;
+        color: white;
+        width: 35%;
+        height: 6vh;
+        margin: auto;
+        margin-bottom: 2.5vh;    
+    }
+
+    #card2 .form-group .form-control::placeholder{
+        color: lightgray;
+    }
+
+    #card2 .form-group .form-control:focus{
+        border: #FCA26E;
+        box-shadow: 1px 1px 1px #FCA26E inset, 1px 1px 1px #FCA26E;
+    }
+
+    #card2 .form-group .btn-success{
+        width: 35%;
+        height: 6vh;
+        display: block;
+        margin: auto;
+    }
+
+    #card3{
+        background-color: transparent;
+        /* border: 1px solid white; */
+        border: transparent;
+        top: 27vh;
+        display: block;
+        margin: auto;
+        width: 150px;
+        text-align: center;
+    }
+
+    #card3 a{
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+    }
+}
+
+.modal{
+    top: 35vh !important;
+}
+
+.modal-backdrop{
+    opacity: 75% !important;
+}
+
+.modal-content{
+    border: transparent;
+    background-color: transparent;
+}
+
+.modal-title{
+    color: white;
+}
+
+.modal-body{
+    color: black;
+    background-color: white;
+    border: 1px white solid;
+    border-bottom-left-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
+
+.modal-header{
+    background-color: red;
+    border: 1px white solid;
+}
+
+#success{
+    background-color: green;
+    border: 1px white solid;
+}
+
+.footer{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /* border: 1px white solid; */
+    border: transparent;
+}

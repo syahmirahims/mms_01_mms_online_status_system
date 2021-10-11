@@ -1,0 +1,55 @@
+body{
+    background-color: transparent;
+    font-family: segoe ui;
+}
+
+.menu, .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+.menu:before, .menu:after{
+    content: '';
+    display: table;
+}
+
+.menu:after{
+    clear: both;
+}
+
+.menu li{
+    float: right;
+    position: relative;
+    border: transparent;
+}
+
+.menu a{
+    float: right;
+    padding: 8px 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.home_menu a:hover, .features_menu a:hover{
+    border-bottom: 1px #FCA26E solid;
+}
+
+.navbar_logo a{
+    color: #FCA26E;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar_logo a:hover{
+    color: #FCA26E;
+}

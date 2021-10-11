@@ -1,0 +1,22 @@
+body{
+    margin-left: 5.6042vw;
+    margin-right: 3vw;
+    margin-top: 3vw;
+}
+
+#card1{
+    width: 100%;
+    border: transparent;
+    /* border: 1px black solid; */
+}
+
+#card1 .headline{
+    font-weight: bold;
+    text-align: center;
+}
+
+#card2{
+    width: 100%;
+    border: transparent;
+    /* border:1px black solid; */
+}

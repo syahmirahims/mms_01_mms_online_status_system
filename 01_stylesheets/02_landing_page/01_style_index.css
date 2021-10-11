@@ -1,0 +1,113 @@
+html, body{
+    background-color: #1A3947;
+    color: white;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
+
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:1601px){
+    #card1{
+        border: transparent;
+        background-color: transparent;
+        width: 77.3%;
+        position: absolute;
+        left: 6vw;
+        top: 25vh;
+        color: #FCA26E;
+    }
+    
+    #card1 .heading1{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    
+    #card1 .heading2{
+        font-size: 45px;
+        font-weight: lighter;
+    }
+    
+    #card2{
+        border: transparent;
+        background-color: transparent;
+        position: absolute;
+        width: 77.3%;
+        height: 24.81%;
+        left: 6vw;
+        top: 45vh;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width:1600px){
+    #card1{
+        border: transparent;
+        background-color: transparent;
+        width: 77.3%;
+        position: absolute;
+        left: 6vw;
+        top: 25vh;
+        color: #FCA26E;
+    }
+    
+    #card1 .heading1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    #card1 .heading2{
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    
+    #card2{
+        border: transparent;
+        background-color: transparent;
+        position: absolute;
+        width: 77.3%;
+        height: 24.81%;
+        left: 6vw;
+        top: 45vh;
+        color: white;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 50%;
+    bottom: 0;
+    border: transparent;
+}

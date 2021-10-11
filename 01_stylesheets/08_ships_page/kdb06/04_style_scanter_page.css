@@ -1,0 +1,112 @@
+body{
+    margin-left: 6vw;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: segoe ui;
+}
+
+@media screen and (min-width:1601px){}
+
+@media screen and (max-width:1600px){}
+
+#card1{
+    border: transparent;
+    /* border: 1px black solid; */
+    height: 10vh;
+    margin-bottom: 2vh;
+}
+
+#card1 .headline{
+    text-align: center;
+    font-weight: bold;
+}
+
+#card1 .subheadline{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card2{
+    width: 100%;
+    border: transparent;
+    /* border: 1px black solid; */
+}
+
+#card3{
+    border: transparent;
+    /* border: 1px black solid; */
+    margin-bottom: 5vh;
+}
+
+.tableTitle{
+    width: 100%;
+    border: transparent;
+}
+
+.tableTitle .title{
+    text-align: left;
+}
+
+.tableTitle .back2Top{
+    text-align: right;
+}
+
+.tableTitle td{
+    border: transparent;
+    /* border: 1px black solid; */
+    width: 50%;
+}
+
+table{
+    border: 1px #828282 solid;
+    width: 100%;
+    text-align: center;
+}
+
+th{
+    background-color: #1A3947;
+    color: white;
+    font-size: 1.8vh;
+    border: 1px #828282 solid;
+}
+
+tr{
+    height: 35px;
+}
+
+th{
+    width: 11.375vw;
+}
+
+td{
+    border: 1px #828282 solid;
+    font-size: 1.8vh;
+}
+
+
+table .id{
+    display: none;
+}
+
+table .componentName{
+    width: 22.755vw;
+}
+
+table .remarks{
+    width: 30.34vw;
+}
+
+table .status{
+    width: 15.17vw;
+}
+
+table .condition, table .storob, table .action{
+    width: 7.585vw;
+}
+
+.btn-link{
+    font-size: 1.8vh;
+}
+
+

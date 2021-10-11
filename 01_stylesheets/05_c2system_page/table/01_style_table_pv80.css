@@ -1,0 +1,56 @@
+.tableTitle{
+    width: 100%;
+    border: transparent;
+}
+
+.tableTitle .title{
+    text-align: left;
+}
+
+.tableTitle .back2Top{
+    text-align: right;
+}
+
+.tableTitle td{
+    border: transparent;
+    /* border: 1px black solid; */
+    width: 50%;
+}
+
+table{
+    border: 1px #828282 solid;
+    width: 100%;
+    text-align: center;
+}
+
+th{
+    background-color: #1A3947;
+    color: white;
+    font-size: 1.8vh;
+    border: 1px #828282 solid;
+}
+
+tr{
+    height: 35px;
+}
+
+th{
+    width: 9.1vw;
+}
+
+td{
+    border: 1px #828282 solid;
+    font-size: 1.5vh;
+}
+
+.componentName{
+    width: 18.2vw;
+}
+
+.id, .action{
+    display: none;
+}
+
+.btn-link{
+    font-size: 1.8vh;
+}

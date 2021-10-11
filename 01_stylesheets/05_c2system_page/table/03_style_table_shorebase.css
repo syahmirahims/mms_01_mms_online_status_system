@@ -1,0 +1,69 @@
+.tableTitle{
+    width: 100%;
+    border: transparent;
+}
+
+.tableTitle .title{
+    text-align: left;
+}
+
+.tableTitle .back2Top{
+    text-align: right;
+}
+
+.tableTitle td{
+    border: transparent;
+    /* border: 1px black solid; */
+    width: 50%;
+}
+
+table{
+    border: 1px #828282 solid;
+    width: 100%;
+    text-align: center;
+}
+
+th{
+    background-color: #1A3947;
+    color: white;
+    font-size: 1.8vh;
+    border: 1px #828282 solid;
+}
+
+tr{
+    height: 35px;
+}
+
+th{
+    width: 18.2vw;
+}
+
+td{
+    border: 1px #828282 solid;
+    font-size: 1.5vh;
+}
+
+
+table .id{
+    display: none;
+}
+
+table .componentName{
+    width: 27.3vw;
+}
+
+table .remarks{
+    width: 36.4vw;
+}
+
+table .status{
+    width: 9.1vw;
+}
+
+table .condition, table .storob{
+    width: 9.1vw;
+}
+
+.btn-link{
+    font-size: 1.8vh;
+}
